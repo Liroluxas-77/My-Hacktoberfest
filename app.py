@@ -51,6 +51,10 @@ while True:
       encouragement_list.append("be proud of who you are and continue the day ahead!")
       counter += 1  
       
+   if each_word == "mad":
+      feelings_list.append("mad")
+      encouragement_list.append("Calm down and think of something that makes you happy!")
+      counter += 1 
 
     if counter == 0:
 
