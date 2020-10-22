@@ -44,12 +44,21 @@ while True:
       feelings_list.append("good")
       encouragement_list.append("be proud of who you are and continue the day ahead!")
       counter += 1  
+
+      
+   if each_word == "mad":
+      feelings_list.append("mad")
+      encouragement_list.append("Calm down and think of something that makes you happy!")
+      counter += 1 
+
+
     if each_word == "bad":
       feelings_list.append("bad")
       encouragement_list.append("It does not matter what you got for your grades! Just take it as an experience!")
       counter += 1  
     
     
+
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
