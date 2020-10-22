@@ -1,4 +1,4 @@
-print("Title of program: Post Exam Activity bot")
+print("Title of program: Post Exam Activity ")
 print()
 while True:
   description = input("Could you describe how you feel after the examinations?")
@@ -40,21 +40,24 @@ while True:
       feelings_list.append("annoyed")
       encouragement_list.append("stop what you are doing and take a gulp of air")
       counter += 1  
-
-    if each_word == "disappointed":
-      feelings_list.append("disappointed")
-      encouragement_list.append("that you have done your best and that's all that matters")
-      counter += 1
-
     if each_word == "good":
       feelings_list.append("good")
       encouragement_list.append("be proud of who you are and continue the day ahead!")
       counter += 1  
+
       
    if each_word == "mad":
       feelings_list.append("mad")
       encouragement_list.append("Calm down and think of something that makes you happy!")
       counter += 1 
+
+
+    if each_word == "bad":
+      feelings_list.append("bad")
+      encouragement_list.append("It does not matter what you got for your grades! Just take it as an experience!")
+      counter += 1  
+    
+    
 
     if counter == 0:
 
